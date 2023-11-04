@@ -14,7 +14,7 @@ export const Form = styled(FormikForm)`
   gap: 20px;
   flex-direction: column;
   border: 2px solid;
-  border-color: limegreen;
+  border-color: aqua;
 `;
 
 export const Field = styled(FormikField)`
@@ -24,7 +24,7 @@ export const Field = styled(FormikField)`
 `;
 
 export const ErrorMessage = styled(FormikError)`
-  color: red;
+  color: tomato;
   font-size: 12px;
 `;
 
@@ -37,6 +37,6 @@ export const Button = styled.button`
 
   &:hover,
   &:focus {
-    background-color: chartreuse;
+    background-color: aqua;
   }
 `;
